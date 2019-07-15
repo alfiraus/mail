@@ -1,0 +1,107 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+// Bootstrap
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css');
+
+/* ------------------------------------- 
+		TYPOGRAPHY 
+------------------------------------- */
+h1{ 
+	font-weight:bold;
+	font-size: 19px;
+}
+
+h2{
+	font-weight:bold; 
+	font-size: 18px;
+}
+
+p{ 
+	margin-bottom: 10px; 
+	font-weight: normal; 
+	font-size:16px; 
+	line-height:1.5em;
+}
+
+/* ------------------------------------- 
+		GLOBAL 
+------------------------------------- */
+*{ 
+
+	-webkit-font-smoothing:antialiased; 
+	-webkit-text-size-adjust:none; 
+	
+	--font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Lato", "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	--font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; 
+
+	font-family: 'Lato', sans-serif;
+
+	table{
+		width: 100%;
+	}
+}
+
+/* ------------------------------------- 
+		HEADER 
+------------------------------------- */
+.head-wrap{ 
+	padding-bottom: 15px;
+}
+
+.top-banner{
+	background-color: #F5F8FA;
+	box-sizing:border-box;
+	padding:25px;
+}
+
+.banner-logo{
+	width: 100px; 
+}
+
+/* ------------------------------------- 
+		BODY 
+------------------------------------- */
+body{
+	width: 100%; 
+	height: 100%;
+	background-color: white;
+
+	.content {
+		padding:15px;
+		max-width:600px;
+		margin:0 auto;
+		display:block; 
+	}
+
+	.button-confirm{
+		box-sizing:border-box;
+		border-radius:3px;
+		color:#fff;
+		display:inline-block;
+		text-decoration:none;
+		background-color: #8CC63E;
+		border-top: 10px solid #8CC63E; 
+		border-right: 18px solid #8CC63E;
+		border-bottom: 10px solid #8CC63E;
+		border-left: 18px solid #8CC63E;
+	}
+
+	.button-confirm:hover{ 
+	  text-decoration: none;
+	  color:#fff;
+	  display:inline-block;
+	}
+}
+
+/* ------------------------------------- 
+		FOOTER 
+------------------------------------- */
+.bottom-banner{
+	background-color: #F5F8FA;
+	box-sizing:border-box;
+	padding:25px;
+	font-size: 12px;
+	padding-bottom: 35px;
+}
